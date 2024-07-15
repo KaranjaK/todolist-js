@@ -1,23 +1,23 @@
 let categories = [
     {
       title: "Personal",
-      img: "boy.png",
+      img: "man.png",
     },
     {
       title: "Work",
-      img: "briefcase.png",
+      img: "working.png",
     },
     {
       title: "Shopping",
-      img: "shopping.png",
+      img: "shopping-cart.png",
     },
     {
       title: "Coding",
-      img: "web-design.png",
+      img: "coding.png",
     },
     {
       title: "Health",
-      img: "healthcare.png",
+      img: "heartbeat.png",
     },
     {
       title: "Fitness",
@@ -25,11 +25,11 @@ let categories = [
     },
     {
       title: "Education",
-      img: "education.png",
+      img: "graduation.png",
     },
     {
       title: "Finance",
-      img: "saving.png",
+      img: "budget.png",
     },
   ];
   
@@ -130,7 +130,6 @@ let categories = [
       category: "Finance",
       completed: false,
     },
-    // Additional tasks for each category
     {
       id: 17,
       task: "Buy new clothes",
@@ -185,10 +184,9 @@ let categories = [
       category: "Finance",
       completed: false,
     },
-    // Add more tasks for each category as desired
   ];
   
-  // Define functions
+  // Function Definition
   const saveLocal = () => {
     localStorage.setItem("tasks", JSON.stringify(tasks));
   };
@@ -407,3 +405,4 @@ let categories = [
     option.textContent = category.title;
     categorySelect.appendChild(option);
   });
+  
