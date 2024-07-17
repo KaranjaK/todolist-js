@@ -189,7 +189,7 @@ body{
     align-items: center;
 }
 
-.category-screen .head-wrapper svg {
+.category-screen .head-wrapper i {
     width: 2rem;
     cursor: pointer;
     color: #fff;
